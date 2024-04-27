@@ -1,3 +1,4 @@
+//it is just take input and give output ofone dimensional array
 #include<stdio.h>
 void main()
 {
