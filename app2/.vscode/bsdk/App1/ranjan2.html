@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        fieldset{
+            background-color: blue;
+        }
+        label{
+            color:red;
+        }
+        form{
+            color: violet;
+        }
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>personal details </legend>
+        <form>
+            <label for="salutation">salutation</label>
+            <br>
+            <!-- <select name="" id="salutation"> -->
+                <select>
+                <option value="">none</option>
+                <option value="">male</option>
+                <option value="">female</option>
+            </select>
+            <br>
+                <br>
+                 <label for="fname">First Name:</label>
+                <input type="text" id="fname"></input>
+                <br><br>
+                 <label for="lname">Last Name:</label>
+                <input type="text" id="lname"></input>
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <br><br>
+                email:
+                <input type="email">
+                <br><br>
+                Date of Birth:
+                <input type="date">
+                <br><br>
+                Address:
+                <br>
+                <textarea cols="30" rows="10"></textarea>
+                <br><br>
+                <button>submit</button>
+                <br><br>
+
+            
+        </form>
+    </fieldset>
+        
+    
+</body>
+</html>
