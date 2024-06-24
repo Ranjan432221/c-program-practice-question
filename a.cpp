@@ -18,7 +18,7 @@ class matrix{
         }
     }
     void input()
-   
+
     {
          cout<<"entre the 2*3 matrix"<<endl;
         for(int i=0;i<2;i++)
